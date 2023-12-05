@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+/*Header Start*/
+header{
+  width: 100%;
+  background-color: gold;
+  color: blue;
+  display: flex;
+}
+.logo{
+  font-family: Arial, Sans-Serif ;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.logo::first-letter{
+  color: crimson;
+  font-size: 50px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  background-color:black ;
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #fff;
+  float: left;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: gold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.navbar ul li:hover{
+  background: crimson;
+  transition: all ease-in 0.5s ;
+}
+.navbar ul ul{
+  display: none;
+}
+.navbar ul li:hover >ul{
+  display: block;
+}
+/*Header End*/
+
+
+/*from start*/
+.form1 {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  width: fit-content;
+  height: fit-content;
+  padding: 40px 120px;
+  margin-top: 45%;
+  border-radius: 10px;
+ 
+
+}
+.form1 input{
+ padding: 10px 50px;
+ border-radius: 50px;
+}
+
+.form1 .btl{
+  font-weight: bold;
+  background-color: gold;
+}
+
+/*form End*/
+
+
+/*Footer Start*/
+footer{
+position: absolute;
+bottom: 0;
+text-align: center;
+background-color:blue ;
+width: 100%;
+color: white ;
+}
+.name h2{
+  font-family: Arial, Sans-Serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: gold;
+}
+.text p{
+ width: 600px;
+ text-align: center;
+ margin: 0 auto;
+ position: relative;
+ top: -30px;
+}
+.icon i{
+  font-size: 30px;
+  padding: 5px;
+  position: relative;
+  top: -20px;
+}
+.copy{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  line-height: 50px;
+}
+/* footer End*/
